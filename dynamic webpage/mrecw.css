@@ -1,0 +1,51 @@
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #b30000;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff4d4d;
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #800000;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
